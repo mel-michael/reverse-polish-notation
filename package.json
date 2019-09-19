@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "node_modules/.bin/jest --verbose=false --watch",
-    "test:coverage": "npm test -- --coverage -u --verbose"
+    "test": "node_modules/.bin/jest",
+    "test:coverage": "npm test --coverage"
   },
   "repository": {
     "type": "git",
