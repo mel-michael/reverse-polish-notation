@@ -17,6 +17,18 @@ class Stack {
 		}
 		return undefined;
 	}
+
+	size() {
+		return this.elements.length;
+	}
+
+	listElements() {
+		let str = "";
+		for (let i = 0; i < this.elements.length; i++) {
+			str += this.elements[i] + " ";
+		}
+		return str;
+	}
 }
 
 module.exports = Stack;
