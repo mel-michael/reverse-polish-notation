@@ -9,15 +9,20 @@ Figure 1: A simple multi tenant application using a fully distributed data model
 
 In building a multi-tenant Software-as-a-Service application, such application should be able to serve multiple users commonly called tenants. To achieve a well architected system, the following will need to be considered before building this application:
 
+- Architecture type 
+
 - Data management
 
-- Access control system 
+- Technology to be Used
 
 - Performance 
 
 - Storage 
 
 - Security 
+
+
+The following are some topics that ties into building a solid multi-tenant application.
   
 
 ### Monolithic or Micro-Services
