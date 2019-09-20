@@ -1,6 +1,6 @@
 # Multi-Tenant Software-as-a-Service Architecture
 
-  
+![](./figure-1.png)
 
 Figure 1: A simple multi tenant application using a fully distributed data model
 
@@ -24,7 +24,7 @@ In building a multi-tenant Software-as-a-Service application, such application s
 
 This app will be built using a micro-service architecture. A monolithic can work but scaling it will be hard. The decision to use a microservices architecture is to separate concerns and also to be able to manage and scale individual services. Simply because of separation of concern and also to make it easy to manage scale the real time aspect of the application. See figure below.
 
-
+![](./figure-2.png)
 Figure 2: A diagram of the application instance of the Multi-tenant Application
 
 
