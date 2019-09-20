@@ -11,13 +11,11 @@ In building a multi-tenant Software-as-a-Service application, such application s
 
 - Architecture type 
 
-- Data management
+- Data Management & Storage
 
 - Technology to be Used
 
-- Performance 
-
-- Storage 
+- Performance
 
 - Security 
 
@@ -33,9 +31,9 @@ This app will be built using a micro-service architecture. A monolithic can work
 Figure 2: A diagram of the application instance of the Multi-tenant Application
 
 
-### Data Management
+### Data Management & Storage
 
-For a new SaaS application with a limited number of tenants, one could start using the monolithic model for storing all data, and move to fully distributed model as the amount of tenants and data grows. The monolithic model will be easier to implement with lower costs, as only a single database instance is needed. The fully distributed model on the other hand is more ﬂexible and scalable, with guaranteed data isolation, but at a higher price. See figure 1 above for more illustration.
+For a new SaaS application with a limited number of tenants, one could start using the monolithic model for storing all data, and move to fully distributed model as the amount of tenants and data grows. The monolithic model will be easier to implement with lower costs, as only a single database instance is needed. The fully distributed model on the other hand is more ﬂexible and scalable, with guaranteed data isolation and high performance but at a higher price. See figure 1 above for more illustration.
 
 For database of choice, I will prefer a document-oriented database like MongoDB. This is because of the flexible nature of the data. 
   
